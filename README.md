@@ -1,5 +1,7 @@
 # markdown-it-link-attributes
 
+> I have made one set of edits for this project to convert from CommonJS to ESM.
+
 > Link attributes plugin for [markdown-it](https://github.com/markdown-it/markdown-it) markdown parser.
 
 ## Install
