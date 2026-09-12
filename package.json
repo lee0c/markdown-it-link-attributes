@@ -2,7 +2,8 @@
   "name": "markdown-it-link-attributes",
   "version": "4.0.1",
   "description": "A markdown-it plugin to configure the attributes for links",
-  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
   "scripts": {
     "prebuild": "prettier --write .",
     "lint": "eslint",

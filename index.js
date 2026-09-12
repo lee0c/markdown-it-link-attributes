@@ -49,7 +49,7 @@ function applyAttributes(idx, tokens, attributes) {
   });
 }
 
-function markdownitLinkAttributes(md, configs) {
+export function markdownitLinkAttributes(md, configs) {
   if (!configs) {
     configs = [];
   } else {
@@ -82,5 +82,3 @@ markdownitLinkAttributes.defaultRender = function (
 ) {
   return self.renderToken(tokens, idx, options);
 };
-
-module.exports = markdownitLinkAttributes;
